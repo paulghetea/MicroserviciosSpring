@@ -1,0 +1,14 @@
+package com.formacion.springboot.item.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.formacion.springboot.item.services.ItemService;
+
+@RestController
+public class ItemController {
+
+	@Autowired
+	ItemService servicio;
+	
+	
+}
