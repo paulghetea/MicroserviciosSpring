@@ -6,7 +6,6 @@ import org.springframework.web.client.RestTemplate;
 
 @Configuration
 public class AppConfig {
-
 	//Permite acceder a otros recursos que están en otros microservicios.
 	@Bean("clienteRest")
 	public RestTemplate registrarRestTemplate() {

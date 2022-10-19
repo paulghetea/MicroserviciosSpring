@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +33,7 @@ public class ItemServiceImpl implements ItemService {
 	public Item findById(Long id, Integer cantidad) {
 		Map<String, String> pathVariables=new HashMap<String,String>();
 		pathVariables.put("id", id.toString());
+		//Hay que añadir a un hashmap con un identificador con el nombre del parámetro para así relacionarlo con el servicio cliente.
 		Producto producto = clienteRest.getForObject("http://localhost:8001/listar/{id}", Producto.class, pathVariables);
 		return new Item(producto, cantidad);
 	}
