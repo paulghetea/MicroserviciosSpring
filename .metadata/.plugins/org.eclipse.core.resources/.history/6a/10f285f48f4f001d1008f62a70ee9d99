@@ -1,5 +1,0 @@
-package com.formacion.springboot.app.productos.repository;
-
-public interface ProductoDao{
-
-}

@@ -1,5 +1,0 @@
-package com.formacion.springboot.item.entities;
-
-public class Item {
-
-}
