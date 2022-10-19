@@ -1,0 +1,27 @@
+package com.formacion.springboot.app.productos.serivices;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.formacion.springboot.app.productos.entities.Producto;
+import com.formacion.springboot.app.productos.repository.ProductoDao;
+
+public class ProductoServiceImpl implements IProductoService{
+	
+	@Autowired
+	ProductoDao repository;
+
+	@Override
+	public List<Producto> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Producto findById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

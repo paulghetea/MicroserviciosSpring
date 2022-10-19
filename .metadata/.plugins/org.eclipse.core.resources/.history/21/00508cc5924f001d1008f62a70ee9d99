@@ -1,0 +1,1 @@
+INSERT INTO productos (nombre,precio,fecha_de_creacion) VALUES ('Coche', 800, NOW());

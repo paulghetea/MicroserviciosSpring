@@ -1,0 +1,12 @@
+package com.formacion.springboot.app.productos.Controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.formacion.springboot.app.productos.serivices.IProductoService;
+
+@RestController
+public class ProductoController {
+	
+	private IProductoService service;
+	
+}
