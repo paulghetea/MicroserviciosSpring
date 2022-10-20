@@ -1,5 +1,0 @@
-package com.formacion.springboot.app.productos.entities;
-
-public class Producto {
-
-}
