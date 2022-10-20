@@ -38,7 +38,7 @@ public class ItemController {
 		Producto producto = new Producto();
 		item.setCantidad(cantidad);
 		producto.setId(id);
-		producto.setNombre("Camara Sony");
+		producto.setNombre("Error");
 		producto.setPrecio(500.00);
 		item.setProducto(producto);
 		return item;
