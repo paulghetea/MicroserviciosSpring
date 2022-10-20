@@ -7336,3 +7336,44 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-20 10:56:11.565
 !MESSAGE executing callback sts4.classpath.StuQfCwD SUCCESS [done]
+
+!ENTRY org.eclipse.jface 2 0 2022-10-20 11:35:49.436
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-20 11:35:49.436
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3989d0c0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a6211de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.jkiss.dbeaver.core.edit.copy.special,Copiar especial,
+		Copiar especial,
+		Category(org.jkiss.dbeaver.core.util,Utilidades,Comandos de utilidad,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8bc3a81,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-20 12:38:52.462
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.StuQfCwD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-20 12:38:52.462
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.StuQfCwD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-20 12:38:52.463
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-20 12:38:52.463
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.StuQfCwD => OK
