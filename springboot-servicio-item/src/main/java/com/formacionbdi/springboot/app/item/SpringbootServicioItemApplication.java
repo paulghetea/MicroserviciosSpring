@@ -2,12 +2,12 @@ package com.formacionbdi.springboot.app.item;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
+//import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-//Tolerancia a fallos con histrix
-@EnableCircuitBreaker
+//Tolerancia a fallos con hystrix
+//@EnableCircuitBreaker
 @EnableEurekaClient
 //Conexión directa entre microservicios
 @EnableFeignClients
