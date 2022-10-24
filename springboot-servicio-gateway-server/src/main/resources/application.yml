@@ -1,0 +1,32 @@
+ #Endpoints de los microservicios
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: servicio-productos
+        uri: lb://servicio-productos
+        predicates:
+          - Path=/api/productos/**
+          #- Header= token, \d+  #es necesario que se pase un header llamado token + parámetro con cualquier dígito
+          #- Method= GET, POST #solo pueden usarse esos dos verbos
+          #- Query=color, verde #es necesario pasar un parámetro "color" en la url con el valor "verde"
+          #- Cookie= color, azul #Es necesario una cookie de nombre 
+        filters:
+          - StripPrefix=2 #establece el número de nombres estáticos en la URI.
+          #Configuramos los filtros personalizados del gateway. El name es lo que hay antes de GatewayFilterFactory
+          - name: Ejemplo
+            args: #Atributos de la clase configuracion embebida de los filtros personalizados.
+              mensaje: Hola mi mensaje personalizado
+              cookieNombre: usuario
+              cookieValor: PaulGhetea
+      - id: servicio-items
+        uri: lb://servicio-items
+        predicates:
+          - Path=/api/items/**
+        filters:
+          - StripPrefix=2
+          - AddRequestHeader=token-request, 123456 #añadimos uno de los filtros por defecto con la api
+          - AddResponseHeader=token-request, 12345678 #Filtro por defecto
+          - SetResponseHeader=Content-type, text/plain  #Filtro por defecto
+          - AddRequestParameter=nombre, paul #Filtro por defecto
+ 
