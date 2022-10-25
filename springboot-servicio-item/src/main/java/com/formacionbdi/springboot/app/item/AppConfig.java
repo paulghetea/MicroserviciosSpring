@@ -33,9 +33,11 @@ public class AppConfig {
 						.failureRateThreshold(50) //Porcentaje de fallo dentro de la ventana de prueba
 						.waitDurationInOpenState(Duration.ofSeconds(10L)) //Tiempo de espera en estado abierto
 						.permittedNumberOfCallsInHalfOpenState(5) //máximo de número de llamadas en estado semi-abierto
+						.slowCallRateThreshold(50)  //establece un porcentaje (por defecto 100%) el umbral de llamadas lentas
+						.slowCallDurationThreshold(Duration.ofSeconds(2L)) //Tiempo máximo para considerar como slow call
 						.build())
-					.timeLimiterConfig(TimeLimiterConfig.ofDefaults()) //Tiempo máximo de espera para cargar. ofDefaults = por defecto
-					.build();
+					.timeLimiterConfig(TimeLimiterConfig.custom().timeoutDuration(Duration.ofSeconds(6L)).build()) //Tiempo máximo de espera para cargar. ofDefaults = por defecto
+					.build();																						//Custom necesita de build()
 		});
 	}
 }

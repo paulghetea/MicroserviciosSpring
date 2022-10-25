@@ -1,3 +1,25 @@
+#configuracion de resilience4j 
+resilience4j:
+  circuitbreaker:
+    configs:
+      defecto:
+        sliding-window-size: 6 #número de pruebas en estado de prueba
+        failure-rate-threshold: 50 #porcentaje de error 
+        wait-duration-in-open-state: 20s #tiempo de espera en estado abierto
+        permitted-number-of-calls-in-half-open-state: 4 #máximo de llamadas en estado semi-abierto
+        slow-call-rate-threshold: 50 #porcentaje de umbral de llamadas lentas
+        slow-call-duration-threshold: 2s #tiempo para considerar la request como llamada lenta
+    instances:
+      productos:
+        base-config: defecto #añadimos la configuracion de "defecto" a las instancias. En este caso a "items"
+  timelimiter:
+    configs:
+      defecto:
+        timeout-duration: 2s #tiempo antes de lanzar un timeOutException
+    instances:
+      productos:
+        base-config: defecto #añadimos configuracion defecto del time limiter
+ 
  #Endpoints de los microservicios
 spring:
   cloud:
@@ -12,10 +34,14 @@ spring:
           #- Query=color, verde #es necesario pasar un parámetro "color" en la url con el valor "verde"
           #- Cookie= color, azul #Es necesario una cookie de nombre 
         filters:
+          - CircuitBreaker=productos #nombre de la instancia puesta en la configuración del principio del yaml
           - StripPrefix=2 #establece el número de nombres estáticos en la URI.
           #Configuramos los filtros personalizados del gateway. El name es lo que hay antes de GatewayFilterFactory
-          - name: Ejemplo
+          - name: CircuitBreaker
             args: #Atributos de la clase configuracion embebida de los filtros personalizados.
+              name: productos
+              statusCodes: 500,404 #Código de excepción
+              fallbackUri: forward:/api/items/ver/9/cantidad/5 #si no funciona el servidor, ruta alternativa.
               mensaje: Hola mi mensaje personalizado
               cookieNombre: usuario
               cookieValor: PaulGhetea
@@ -29,4 +55,6 @@ spring:
           - AddResponseHeader=token-request, 12345678 #Filtro por defecto
           #- SetResponseHeader=Content-type, text/plain  #Filtro por defecto
           - AddRequestParameter=nombre, paul #Filtro por defecto
+ 
+ 
  

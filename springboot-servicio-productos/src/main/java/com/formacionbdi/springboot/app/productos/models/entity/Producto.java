@@ -44,6 +44,6 @@ public class Producto implements Serializable{
 	@Transient
 	private Integer port;
 	
-	private static final long serialVersionUID = 1285454306356845809L;
+	private static final long serialVersionUID = 1285454306356845809L; //permite identificar un objeto en un array de bytes
 
 }
