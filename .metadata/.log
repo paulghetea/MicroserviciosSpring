@@ -10580,7 +10580,10 @@ Binding(CTRL+SHIFT+C,
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> CRUD
 =======
 >>>>>>> CRUD
 !SESSION 2022-10-26 11:32:55.115 -----------------------------------------------
@@ -11779,6 +11782,7 @@ java.util.concurrent.TimeoutException
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-27 10:06:06.267
 !MESSAGE executing callback sts4.classpath.YUTwKIYz SUCCESS [done]
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> CRUD
 =======
 >>>>>>> CRUD
@@ -11836,3 +11840,5 @@ Caused by: java.lang.OutOfMemoryError: Java heap space
 	at org.eclipse.jdt.internal.compiler.util.HashtableOfObject.<init>(HashtableOfObject.java:56)
 	at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:681)
 	... 10 more
+=======
+>>>>>>> CRUD

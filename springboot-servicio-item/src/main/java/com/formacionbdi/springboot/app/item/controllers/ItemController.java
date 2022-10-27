@@ -15,6 +15,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import org.springframework.web.bind.annotation.DeleteMapping;
+>>>>>>> CRUD
 =======
 import org.springframework.web.bind.annotation.DeleteMapping;
 >>>>>>> CRUD
@@ -61,7 +65,12 @@ public class ItemController {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if (env.getActiveProfiles().length > 0 && env.getActiveProfiles()[0].equals("dev")) {// si existen perfiles y es el de development
+=======
+		if (env.getActiveProfiles().length > 0 && env.getActiveProfiles()[0].equals("dev")) {// si existen perfiles y es
+																								// el de development
+>>>>>>> CRUD
 =======
 		if (env.getActiveProfiles().length > 0 && env.getActiveProfiles()[0].equals("dev")) {// si existen perfiles y es
 																								// el de development

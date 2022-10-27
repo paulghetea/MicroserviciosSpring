@@ -1,7 +1,11 @@
 INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\org.eclipse.jdt.core
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 2725528533.index
+=======
+1737467240.index
+>>>>>>> CRUD
 =======
 1737467240.index
 >>>>>>> CRUD
@@ -23,8 +27,13 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 1145001771.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 136169224.index
 1139476576.index
+=======
+1139476576.index
+136169224.index
+>>>>>>> CRUD
 =======
 1139476576.index
 136169224.index
@@ -83,7 +92,10 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 3847931369.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3256326387.index
+=======
+>>>>>>> CRUD
 =======
 >>>>>>> CRUD
 =======
@@ -120,6 +132,9 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 2068886525.index
 3393535732.index
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> CRUD
+=======
 >>>>>>> CRUD
 =======
 >>>>>>> CRUD
@@ -129,7 +144,11 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 4060789092.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3393535732.index
+=======
+3875896627.index
+>>>>>>> CRUD
 =======
 3875896627.index
 >>>>>>> CRUD
@@ -150,10 +169,14 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 3625628594.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3216215776.index
 2124504813.index
 =======
 2124504813.index
+=======
+2124504813.index
+>>>>>>> CRUD
 =======
 2124504813.index
 >>>>>>> CRUD
@@ -193,6 +216,7 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 755801109.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3097135838.index
 2611155197.index
 3504432758.index
@@ -205,6 +229,8 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 761156460.index
 3477574471.index
 =======
+=======
+>>>>>>> CRUD
 =======
 >>>>>>> CRUD
 2426629025.index
@@ -226,6 +252,7 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 712473509.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1923040539.index
 1836381189.index
 713150258.index
@@ -294,12 +321,37 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 3475658060.index
 3301379876.index
 2769116441.index
+=======
+3131072726.index
+3819546529.index
+713150258.index
+3971963991.index
+1836381189.index
+2518255756.index
+400836509.index
+1410451153.index
+1240562764.index
+491949098.index
+354015935.index
+3455992419.index
+3368642688.index
+761156460.index
+3863898409.index
+4279325720.index
+3701011914.index
+3475658060.index
+3301379876.index
+2769116441.index
+>>>>>>> CRUD
 3858673656.index
 3932715272.index
 2124861193.index
 1386447908.index
 2987111761.index
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> CRUD
+=======
 >>>>>>> CRUD
 =======
 >>>>>>> CRUD
@@ -307,6 +359,7 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 4073444101.index
 1016720595.index
 3877846108.index
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 3040877144.index
@@ -322,6 +375,8 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 =======
 =======
 >>>>>>> CRUD
+=======
+>>>>>>> CRUD
 4093601217.index
 2074005393.index
 1703484009.index
@@ -333,6 +388,9 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 1059902765.index
 231666854.index
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> CRUD
+=======
 >>>>>>> CRUD
 =======
 >>>>>>> CRUD
@@ -346,6 +404,7 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 2171175435.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 2074005393.index
 1543104066.index
 889496413.index
@@ -353,6 +412,8 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 2085273681.index
 3183395619.index
 =======
+=======
+>>>>>>> CRUD
 =======
 >>>>>>> CRUD
 3057153855.index
@@ -363,12 +424,16 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 3183395619.index
 2084345132.index
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> CRUD
+=======
 >>>>>>> CRUD
 =======
 >>>>>>> CRUD
 1205454674.index
 2245028986.index
 380859969.index
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 1040762723.index
@@ -420,6 +485,21 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 349451232.index
 4066157647.index
 >>>>>>> CRUD
+=======
+2245028986.index
+1246045831.index
+2699407521.index
+1040762723.index
+889496413.index
+1409262603.index
+928631039.index
+672065831.index
+3035285452.index
+1438028848.index
+1984805425.index
+349451232.index
+4066157647.index
+>>>>>>> CRUD
 3045980583.index
 3961996394.index
 2370114163.index
@@ -428,6 +508,9 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 3144174297.index
 4094347602.index
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> CRUD
+=======
 >>>>>>> CRUD
 =======
 >>>>>>> CRUD
@@ -457,6 +540,7 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 4139634226.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 63684354.index
 3660928052.index
 1425386682.index
@@ -467,6 +551,8 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 =======
 =======
 >>>>>>> CRUD
+=======
+>>>>>>> CRUD
 3660928052.index
 63684354.index
 1425386682.index
@@ -475,6 +561,9 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 3506029917.index
 3067375774.index
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> CRUD
+=======
 >>>>>>> CRUD
 =======
 >>>>>>> CRUD
@@ -485,6 +574,7 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 3919113240.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3585076292.index
 878951189.index
 2247380837.index
@@ -493,12 +583,17 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 =======
 =======
 >>>>>>> CRUD
+=======
+>>>>>>> CRUD
 836829977.index
 2247380837.index
 1364620989.index
 878951189.index
 3585076292.index
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> CRUD
+=======
 >>>>>>> CRUD
 =======
 >>>>>>> CRUD
@@ -508,7 +603,11 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 1853640387.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 836829977.index
+=======
+1424237135.index
+>>>>>>> CRUD
 =======
 1424237135.index
 >>>>>>> CRUD
@@ -538,6 +637,7 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 957499923.index
 801068784.index
 <<<<<<< HEAD
+<<<<<<< HEAD
 1355072680.index
 2124259455.index
 <<<<<<< HEAD
@@ -546,6 +646,14 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 203177902.index
 3782507227.index
 =======
+1355072680.index
+688058206.index
+555306166.index
+203177902.index
+>>>>>>> CRUD
+=======
+3782507227.index
+2124259455.index
 1355072680.index
 688058206.index
 555306166.index
@@ -626,10 +734,17 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 4137918172.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 147433990.index
 453977540.index
 982141349.index
 1934619094.index
+=======
+1934619094.index
+982141349.index
+453977540.index
+147433990.index
+>>>>>>> CRUD
 =======
 1934619094.index
 982141349.index
@@ -661,6 +776,7 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 1137428745.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3298687279.index
 1453420969.index
 2066942545.index
@@ -669,6 +785,16 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 2689907854.index
 1157488337.index
 2087108645.index
+=======
+1542473204.index
+1453420969.index
+2066942545.index
+1875076336.index
+1157488337.index
+2689907854.index
+2087108645.index
+2252302351.index
+>>>>>>> CRUD
 =======
 1542473204.index
 1453420969.index
@@ -698,6 +824,7 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 363387748.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1354949649.index
 2228392586.index
 3740463641.index
@@ -709,6 +836,11 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 3895548483.index
 2228392586.index
 3740463641.index
+=======
+3895548483.index
+2228392586.index
+3740463641.index
+>>>>>>> CRUD
 =======
 3895548483.index
 2228392586.index
@@ -732,6 +864,7 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 3694282578.index
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3547978695.index
 1597557156.index
 765153762.index
@@ -747,6 +880,9 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 =======
 3295211672.index
 >>>>>>> CRUD
+=======
+3295211672.index
+>>>>>>> CRUD
 1597557156.index
 765153762.index
 3444387907.index
@@ -757,6 +893,9 @@ INDEX VERSION 1.131+C:\Users\paulg\Documents\SpringWorkspace\.metadata\.plugins\
 1174137372.index
 1611513529.index
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> CRUD
+=======
 >>>>>>> CRUD
 =======
 >>>>>>> CRUD
