@@ -49,13 +49,13 @@ public class ItemServiceImpl implements ItemService {
 	}
 
 	@Override
-	public Producto update(Producto producto, Long id) {
+	public Producto update(Producto producto) {
 		HttpEntity<Producto> body = new HttpEntity<Producto>(producto);
-		// Creamos un map para inyectar el id
-		Map<String, String> pathVariables = new HashMap<String, String>();
-		pathVariables.put("id", id.toString());
-		ResponseEntity<Producto> response = clienteRest.exchange("http://servicio-productos/editar/{id}",
-				HttpMethod.PUT, body, Producto.class, pathVariables);
+//		// Creamos un map para inyectar el id
+//		Map<String, String> pathVariables = new HashMap<String, String>();
+//		pathVariables.put("id", id.toString());
+		ResponseEntity<Producto> response = clienteRest.exchange("http://servicio-productos/editar",
+				HttpMethod.PUT, body, Producto.class);//, pathVariables);
 		Producto productoResponse = response.getBody();
 		return productoResponse;
 	}
