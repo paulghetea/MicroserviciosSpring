@@ -27,6 +27,6 @@ spring:
           - StripPrefix=2
           - AddRequestHeader=token-request, 123456 #añadimos uno de los filtros por defecto con la api
           - AddResponseHeader=token-request, 12345678 #Filtro por defecto
-          - SetResponseHeader=Content-type, text/plain  #Filtro por defecto
+          #- SetResponseHeader=Content-type, text/plain  #Filtro por defecto
           - AddRequestParameter=nombre, paul #Filtro por defecto
  

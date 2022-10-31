@@ -5,13 +5,19 @@ import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import com.formacionbdi.springboot.app.item.clientes.ProductoClienteRest;
 import com.formacionbdi.springboot.app.item.models.Item;
+import com.formacionbdi.springboot.app.item.models.Producto;
 
 @Service("serviceFeign")
 public class ItemServiceFeign implements ItemService {
-	
+
 	@Autowired
 	private ProductoClienteRest clienteFeign;
 
@@ -23,6 +29,24 @@ public class ItemServiceFeign implements ItemService {
 	@Override
 	public Item findById(Long id, Integer cantidad) {
 		return new Item(clienteFeign.detalle(id), cantidad);
+	}
+
+	@Override
+	@PostMapping("/crear")
+	public Producto save(@RequestBody Producto producto) {
+		return clienteFeign.crear(producto);
+	}
+
+	@Override
+	@PutMapping("/editar")
+	public Producto update(@RequestBody Producto producto) {
+		return clienteFeign.editar(producto);
+	}
+
+	@Override
+	@DeleteMapping("/eliminar/{id}")
+	public void delete(@PathVariable Long id) {
+		clienteFeign.eliminar(id);
 	}
 
 }
