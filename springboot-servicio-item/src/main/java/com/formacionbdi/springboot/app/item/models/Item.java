@@ -2,6 +2,7 @@ package com.formacionbdi.springboot.app.item.models;
 
 import lombok.Getter;
 import lombok.Setter;
+import com.formacion.springboot.app.commons.models.entity.Producto;
 
 @Getter
 @Setter

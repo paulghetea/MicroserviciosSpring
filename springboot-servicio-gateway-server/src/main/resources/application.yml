@@ -29,4 +29,8 @@ spring:
           - AddResponseHeader=token-request, 12345678 #Filtro por defecto
           #- SetResponseHeader=Content-type, text/plain  #Filtro por defecto
           - AddRequestParameter=nombre, paul #Filtro por defecto
+      - id: servicio-usuarios
+        uri: lb://servicio-usuarios
+        predicates:
+          - Path=/api/usuarios/**
  

@@ -1,0 +1,2 @@
+INSERT INTO usuarios (username, password, enabled, nombre, apellidos, email ) VALUES('paulgh00', '800', 1, 'Paul', 'Ghetea', 'paulghetea@outlook.es');
+INSERT INTO usuarios (username, password, enabled, nombre, apellidos, email ) VALUES('maria', '123', 1, 'Maria', 'Menchero', 'mariamenchero@outlook.es');

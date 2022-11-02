@@ -13,18 +13,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 import org.springframework.web.bind.annotation.DeleteMapping;
->>>>>>> CRUD
-=======
-import org.springframework.web.bind.annotation.DeleteMapping;
->>>>>>> CRUD
-=======
-import org.springframework.web.bind.annotation.DeleteMapping;
->>>>>>> CRUD
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -36,7 +25,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.formacionbdi.springboot.app.item.models.Item;
-import com.formacionbdi.springboot.app.item.models.Producto;
+import com.formacion.springboot.app.commons.models.entity.Producto;
 import com.formacionbdi.springboot.app.item.models.service.ItemService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
@@ -62,23 +51,9 @@ public class ItemController {
 		Map<String, String> json = new HashMap<>();
 		json.put("texto", texto);
 		json.put("puerto", puerto);
+		if (env.getActiveProfiles().length > 0 && env.getActiveProfiles()[0].equals("dev")) {// si existen perfiles y es
+																								// el de development
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-		if (env.getActiveProfiles().length > 0 && env.getActiveProfiles()[0].equals("dev")) {// si existen perfiles y es el de development
-=======
-		if (env.getActiveProfiles().length > 0 && env.getActiveProfiles()[0].equals("dev")) {// si existen perfiles y es
-																								// el de development
->>>>>>> CRUD
-=======
-		if (env.getActiveProfiles().length > 0 && env.getActiveProfiles()[0].equals("dev")) {// si existen perfiles y es
-																								// el de development
->>>>>>> CRUD
-=======
-		if (env.getActiveProfiles().length > 0 && env.getActiveProfiles()[0].equals("dev")) {// si existen perfiles y es
-																								// el de development
->>>>>>> CRUD
 			json.put("autor.nombre", env.getProperty("configuracion.autor.nombre"));
 			json.put("autor.email", env.getProperty("configuracion.autor.email"));
 		}
