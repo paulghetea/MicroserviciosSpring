@@ -33,4 +33,6 @@ spring:
         uri: lb://servicio-usuarios
         predicates:
           - Path=/api/usuarios/**
+        filters:
+          - StripPrefix=2 
  
